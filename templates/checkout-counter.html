@@ -8,10 +8,30 @@
     <meta name="MobileOptimized" content="320"/>
     <meta name="format-detection" content="telephone=no"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
-    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="apple-mobile-web-app-status-bar-style"="black"/>
     <link rel="shortcut icon" href="/img/tether.svg"/>
     <link href="/css/main.min.css" rel="stylesheet"/>
     <title>Bepusdt - 一款更好USDT支付中间件</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #e0e0e0;
+        }
+        .header, .content, .footer {
+            background-color: #1e1e1e;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        .header label, .footer p, .content .title, .content .address {
+            color: #e0e0e0;
+        }
+        .header b {
+            color: #ff1744;
+        }
+        .downcount p, .downcount span {
+            color: #e0e0e0;
+        }
+    </style>
 </head>
 <body>
 <div class="container">
@@ -57,9 +77,6 @@
                 </ul>
             </div>
         </div>
-    </div>
-    <div class="footer">
-        <p>Powered by <a href="https://github.com/v03413/bepusdt" target="_blank">莫名 - Bepusdt</a></p>
     </div>
 </div>
 <script src="/js/jquery.min.js"></script>
